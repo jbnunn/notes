@@ -19,9 +19,13 @@ fn main() {
                 if total_todo_count > 0 {
                     println!(
                         "{}",
-                        format!("You have {} to-do's", total_todo_count)
-                            .green()
-                            .bold()
+                        format!(
+                            "You have {} to-do{}",
+                            total_todo_count,
+                            if total_todo_count == 1 { "" } else { "s" }
+                        )
+                        .green()
+                        .bold()
                     );
                 } else {
                     println!("{}", "You have no to-do's".green().bold());
