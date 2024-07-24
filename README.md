@@ -12,6 +12,7 @@ Today I moved my original `notes` code from Python to Rust. Benefits:
 * Rust
 
 - [] This is an open to-do
+- [] Migrate `notes` from Python to Rust
 - [X] This is a to-do that has been completed
 ```
 
