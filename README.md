@@ -5,7 +5,11 @@ Notes is a simple tool to manage notes and to-do lists. Running this tool as `no
 ```
 # Thu 2024-07-18
 
-My notes here
+Today I moved my original `notes` code from Python to Rust. Benefits:
+
+* Cleaner code
+* Fewer dependencies
+* Rust
 
 - [] This is an open to-do
 - [X] This is a to-do that has been completed
