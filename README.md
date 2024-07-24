@@ -62,7 +62,7 @@ By default, the application expects your notes to be stored in the `~/Documents/
 
 ## About
 
-This Rust update is to my original Python code, which I've used since 2020 for daily notes and managing my to-do's.
+This is a rewrite of my original Python code, which I've used since 2020 for daily notes and managing my to-do's.
 
 ## Contributing
 
