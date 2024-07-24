@@ -55,6 +55,7 @@ The CLI can also list of all your open to-do items from the command line with `n
 2. Navigate to the project directory in your terminal.
 3. Build the application using the Rust toolchain: `cargo build --release`.
 4. The compiled binary will be located in the `target/release` directory.
+5. (Optional) Copy the binary to a location in your PATH, e.g., `sudo cp target/release/notes /usr/local/bin`. Then, run `notes` from anywhere in your command line.
 
 ## Configuration
 
