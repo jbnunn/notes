@@ -1,0 +1,10 @@
+[package]
+name = "notes"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.23"
+dirs = "4.0.0"
+regex = "1"
+colored = "2"
