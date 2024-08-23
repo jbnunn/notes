@@ -42,12 +42,10 @@ The CLI can also list of all your open to-do items from the command line with `n
 - `todos` to display a list of all to-do items from your notes.
 - `<project_name>` to create/open a specific project note file.
 
-
-
 ## Requirements
 
-- Rust toolchain (stable version)
-- Visual Studio Code (for opening note files) - this can be configured to open your IDE of choice.
+- [Rust toolchain](https://www.rust-lang.org/tools/install)
+- An IDE. This script is configured to open [Visual Studio Code](https://code.visualstudio.com/) but can be changed to your IDE of choice.
 
 ## Installation
 
