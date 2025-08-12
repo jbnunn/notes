@@ -1,9 +1,13 @@
-# Notes (A Rust CLI Tool)
+# Notes
 
 Notes is a simple tool to manage notes and to-do lists. Running this tool as `notes` opens your IDE and creates a new Markdown file with today's date (or opens the file for you if it already exists). You can take notes and create to-do's for yourself with the following syntax:
 
 ```
-# Thu 2024-07-18
+## Tues 2025-08-12
+
+I don't know why it took me so long to realize this didn't need to be Python or Rust ... a simple Bash script does the trick. Now <90 lines of code with no dependencies.
+ 
+## Thu 2024-07-18
 
 Today I moved my original `notes` code from Python to Rust. Benefits:
 
@@ -12,7 +16,8 @@ Today I moved my original `notes` code from Python to Rust. Benefits:
 * Rust
 
 - [] This is an open to-do
-- [] Migrate `notes` from Python to Rust
+- [] Review documentation after switching to Bash
+- [X] Migrate `notes` from Python to Rust
 - [X] This is a to-do that has been completed
 ```
 
@@ -42,18 +47,15 @@ The CLI can also list of all your open to-do items from the command line with `n
 - `todos` to display a list of all to-do items from your notes.
 - `<project_name>` to create/open a specific project note file.
 
-## Requirements
-
-- [Rust toolchain](https://www.rust-lang.org/tools/install)
-- An IDE. This script is configured to open [Visual Studio Code](https://code.visualstudio.com/) but can be changed to your IDE of choice.
-
 ## Installation
 
 1. Clone the repository or download the source code.
-2. Navigate to the project directory in your terminal.
-3. Build the application using the Rust toolchain: `cargo build --release`.
-4. The compiled binary will be located in the `target/release` directory.
-5. (Optional) Copy the binary to a location in your PATH, e.g., `sudo cp target/release/notes /usr/local/bin`. Then, run `notes` from anywhere in your command line.
+2. Update the `EDITOR` in [./notes.sh](notes.sh), eg "nano", "code", "nvim" etc
+3. Create a symlink:
+
+```
+ln -s /path/to/notes/notes.sh /usr/local/bin/notes
+```
 
 ## Configuration
 
@@ -61,7 +63,7 @@ By default, the application expects your notes to be stored in the `~/Documents/
 
 ## About
 
-This is a rewrite of my original Python code, which I've used since 2020 for daily notes and managing my to-do's.
+This is a Bash rewrite of my original Python code, which I've used since 2020 for daily notes and managing my to-do's. After experimenting with Rust, I realized a simple Bash script was the most practical solution with no dependencies.
 
 ## Contributing
 
