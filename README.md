@@ -37,9 +37,6 @@ The CLI can also list of all your open to-do items from the command line with `n
 
 ## Usage
 
-![notes-help](/notes-help.png)
-
-
 `notes [--projects | todos | <project_name>]`
 
 - Run without arguments to create/open the daily note.
