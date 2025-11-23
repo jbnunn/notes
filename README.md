@@ -51,7 +51,7 @@ The CLI can also list of all your open to-do items from the command line with `n
 3. Create a symlink:
 
 ```
-ln -s /path/to/notes/notes.sh /usr/local/bin/notes
+ln -s /path/to/notes/notes.sh ~/.local/bin/notes
 ```
 
 ## Configuration
